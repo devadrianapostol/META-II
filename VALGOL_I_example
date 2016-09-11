@@ -1,0 +1,10 @@
+.BEGIN
+    .REAL X .,
+    0 = X .,
+    .UNTIL X .= 10 .DO
+    .BEGIN
+        EDIT (X, '*') .,
+        PRINT .,
+        X+1 = X
+    .END
+.END
